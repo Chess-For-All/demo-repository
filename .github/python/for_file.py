@@ -2,7 +2,7 @@ async def pp(file, n):
     pFile = file
     X = pFile.url
     Y = pFile.data
-    if n != 10:
+    if n != None:
         return pFile
         return X
         return Y
